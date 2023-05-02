@@ -48,7 +48,7 @@ container = st.container()
 container.write("This is in the container")
 st.write ("This one use st.write")
 
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import numpy as np
 rand=np.random.normal(1, 2, size=20)
 fig, ax = plt.subplots()
